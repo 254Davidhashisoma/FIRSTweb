@@ -1,143 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&isplay=swap');
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
-*{
-    box-sizing: border-box;
-    max-width: resolution 0;
-    padding: 100;
-}
-header.container{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #c3c3c3;
-}
-header{
-    width: 100;
-    z-index:10;
-    padding: 15px;
-}
-header .logo a{
-    font-size: 30px;
-    text-decoration: none;
-    color: #ffffff;
-}
-header .logo a span{
-    color: #c11325;
-}
-header.nav{
-    display: none;
-    background color: #c11325;
-    width : 200px;
-    text-outline: 50%;;
-    right: 0;
-    height: 100&;
-    z-index : 99;
-    padding: 100px 30px 15px;
-}
-header .nav ul {
-    list-style-type: none;
-    margin: 0%;
-    padding:0px;
-}
-header.nav ul li{
-    display: block;
-    margin-bottom: 10px;
-    text-align: center;
-}
-header.navul li a{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 400;
-    color: #192c80;
-    display:block ;
-    position: relative;
-}
-}
-header .ham-burger{
-    display: block; 
-}
-header .ham-burger span{
-    height: 3px;
-    margin-top: 5px;
-    display: block;
-    background-color: #141353;
-}
-.container{
-    height: 1170px;
-    margin: auto;
-}
-.home{
-    height: 100vh;
-    background-image: url(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              /home/moringaaccess/Pictures/img_fitness/slider_01.jpg);
-    background-size: cover;
-    padding: 15px;
-    -webkit-display:flex;
-    display: flex;
-    position: relative;
-}
-.home .go-down{
-    position: absolute;
-    bottom: 50px;
-    width: 26px;
-    height: 40px;
-    border: 1px solid #381111;
-    display: block;
-    border-radius: 4px;
-    text-align: center;
-    left: 50px;
-    margin-left: -13px;
-}
-.home .go-down .fa{
-    color: #271010;
-}
-.home .container{
-    display: flex;
-    -webkit-display:flex ;
-    flex-direction: column;
-    flex-grow: 1;
-}
-.home h1{
-    color: #cf2727;
+
+.logo a{
     font-size: 60px;
-    font: weight 700;
-    margin: 0%;
-    
+    text-decoration: none;
+    color: #971b1b;
+    font-weight: 500;
 }
 ul>li {
-    display: block;
+    display :inline-block;
+    text-transformation : uppercase;
     padding: 15px;
-    
+    position: relative;
+    left: 50%;
+    font-size: 30px;
+     display: inline;
+}
+ul>li>a {
+       color :rgba(223, 33, 33, 0.733);
+       display:inline;
+       padding: 10px 30px;
+       
 }
 ul>li>a:hover {
-    box-shadow :0 0 0 0.625em rgba(0, 0, 0 , 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6) ;
-     background-color: #838baaad;
-     color : rgba(0, 35, 122, 0.7);
+    box-shadow :0 0 0 0.625em rgba(192, 10, 10, 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6) ;
+     background-color: #6880e4ad;
+     color : rgba(16, 29, 65, 0.7);
 }
-.classes .content .text h2{
-    font-size: 15px;
-    font-weight :500;
-    padding: 0px 0px 20px;
-
-
+header .logo a{
+    font-size: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}   
+.logo a span{
+    color: #a01422;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 500;
 }
-.classes .classes .text p{
-    font-size: 15px;
-    line-height: 20px;
-    margin: 0;
-    color: #222222;
-    padding: 0 0 20px;
-    font-family:  "Open sans", Helvetica, sans-serif;
+.home{
+    height: 60vh;
+    background-image: url("./img/Fitness_project/img_fitness/slider_01.jpg")
+    height: 250px;
+    width :auto;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 15px;
 }
-.classes .content .class-items{
-    display:flex;
-    -webkit-display:flex ;
-    flex-direction: column-reverse;
-}
-.classes .content .class-items .item{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 30px
-    display:flex;
 }
 .home h1 span{
     color: #4d1117;
+}
+.header .home .container .images{
+    display:inline;
+    position: relative;
+}
+.finman{
+    left:99%;
+
 }

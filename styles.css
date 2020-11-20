@@ -1,3 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&isplay=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');');
+html{
+    scroll-behavior:smooth ;
+    
+    
+}
+body{
+    margin: 0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    position:absolute;
+    left: ;
+}
+header .nav ul {
+    list-style-type: none;
+    margin: inherit;
+    padding:16px;
+    float:right;
+}
+
+
+header.nav ul li{
+    display: block;
+    float: top;
+}
+   
+header.nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: #e6e7eb;
+    display:block ;
+    position: relative;
+   
+}
+header .nav ul li a::before {
+     content:'' ;
+     
+     
+     
+    
+     
+}
+header .ham-burger{
+    display: inline-block;
+    position: relative;
+    z-index: 100; 
+}
+header .ham-burger span{
+    height: 3px;
+    margin-top: 8px;
+    display: block;
+    background-color: #ffffff;
+    -wekbkit-transition:transform .5s ease;
+
+}
+header .ham-burger span:nth-child(1){
+    transition-origin:left top ;
+    
+}
+header .ham-burger span:nth-child(2){
+    transition-origin: left bottom;
+}
+header .ham-burger .active span:nth-child(1){
+
+}
+.container{
+    height: 1170px;
+    margin: auto;
+}
+
+.home .go-down{
+    position: absolute;
+    bottom: 50px;
+    width: 26px;
+    height: 40px;
+    border: 1px solid #381111;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    left: 50px;
+    margin-left: -13px;
+}
+.home .go-down .fa{
+    color: #271010;
+    animation: goDown 1s ease infinite;
+    -webkit-animation: goDown 1s ease infinite;
+    float:left;
+}
+@keyframes .go-down .fa{
+    0%{transform:translateY(0);opacity: 0.5;}
+    100%{transform:translateY(10px);}
+}
+.home .container{
+    display: flex;
+    -webkit-display:flex ;
+    flex-direction: column;
+    flex-grow: 6;
+}
+.home h1{
+    color: #cf2727;
+    font-size: 60px;
+    font: weight 700;
+    margin: 0%;
+    text-align: center;
+
+}
+
+ul> li {
+    display: block;
+   
+}
+
+.classes .content .text h2{
+    font-size: 15px;
+    font-weight :500;
+    padding: 0px 0px 20px;
+
+
+}
+.classes .classes .text p{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    color: #222222;
+    padding: 0 0 20px;
+    font-family:  "Open sans", Helvetica, sans-serif;
+}
+.classes .content .class-items{
+    display:flex;
+   
+    flex-direction: column-reverse;
+}
+.classes .content .class-items .item{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px
+    display:flex;
+}
+.home h1 span{
+    color: #c11325;
+}
+
+.about{
+    padding: 80px 15px;
+    background-color: #ffffff;
+}
+.about .content{
+    -webkit-display:flex;
+    display: flex;
+}
+.about .content .box{
+    flex:0 0 33.33%;
+    max-width: width 33.33%;
+   
+}
+.about .content .box .inner{
+background-color: #222222;
+}
+.about .content .box .inner .text h4{
+    font-size: 20px;
+    text-decoration: capitalize;
+    margin: 0px;
+    padding: 0px 0px 15px;
+    font-weight: 500; 
+    columns: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about .content .box .inner .text p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 20px;
+    columns: #ffffff;
+    margin: 0;
+    font-family: 'Opan Sans', sans-serif;
+}
+.about .content .box .inner{
+    background-color: #222222;
+}
+.about .content .box .inner .img img{
+     width: 100%;
+
+}
 
 .logo a{
     font-size: 60px;
